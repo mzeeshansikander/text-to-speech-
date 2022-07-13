@@ -25,6 +25,7 @@ function App() {
     stopSpeechToText,
   } = useSpeechToText({
     continuous: true,
+    crossBrowser: true,
     googleApiKey: "AIzaSyAEKq5NlUKymt8n4zGS3LJtwMZLpw9MwQ8",
     useLegacyResults: false,
   });
